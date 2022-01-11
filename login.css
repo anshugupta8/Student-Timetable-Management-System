@@ -1,0 +1,69 @@
+body
+{
+color: white;
+font-family: "Times New Roman", Times, serif;
+background-image: linear-gradient(red,orange,yellow,rgb(4, 218, 4),blue,rgb(122, 7, 204),rgb(250, 6, 250));
+background-image: url("aaaa.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+ 
+.login-box {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+ 
+.login-box h1 {
+    float: left;
+    font-size: 40px;
+    border-bottom: 4px solid #ffffff;
+    margin-bottom: 50px;
+    padding: 13px;
+}
+.about-us h3 {
+    float: center;
+    font-size: 40px;
+    border-bottom: 4px solid #ffffff;
+    margin-bottom: 50px;
+    padding: 13px;
+}
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #ffffff;
+}
+ 
+.fa {
+    width: px;
+    float: left;
+    text-align: center;
+}
+ 
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    float: left;
+    margin: 0 10px;
+    color:white;
+}
+ 
+.button {
+    width: 100%;
+    padding: 8px;
+    color: #ffffff;
+    background: none violet;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
